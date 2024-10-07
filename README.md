@@ -41,7 +41,7 @@ example: pip install -r requirements.txt
 
 Usage:
 1-Run the assistant:
-  python voice_assistant.py
+  python Alexa.py
 
 2-Available Commands:
 
