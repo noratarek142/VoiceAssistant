@@ -4,8 +4,7 @@ Voice Assistant with Reminder Functionality
 Overview:
 
 This project is a voice-controlled assistant built in Python, capable of recognizing speech commands and providing responses. The assistant can tell the current time and date, set reminders, and play music. It integrates various libraries such as SpeechRecognition, gTTS, and plyer to provide a seamless user experience.
-Features
-
+Features:
     Voice Recognition: Uses Google’s Speech Recognition API to understand user commands.
     Text-to-Speech: Converts responses into speech using Google Text-to-Speech (gTTS).
     Reminder Functionality: Allows users to set reminders for specific times with desktop notifications.
