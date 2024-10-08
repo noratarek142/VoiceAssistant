@@ -6,6 +6,8 @@ import datetime
 import re
 from threading import Timer
 import subprocess
+import webbrowser  
+import pywhatkit
 
 # Initialize recognizer class (for recognizing the speech)
 r = sr.Recognizer()
@@ -119,6 +121,12 @@ def run():
                     speak("Please specify the time for the reminder in HH:MM format.")
             elif 'song' in command or 'music' in command:
                 pywhatkit.playonyt(command.replace('Alexa', ''))
+            elif 'linkedin' in command:
+                speak("Opening your LinkedIn.")
+                webbrowser.open("https://www.linkedin.com/in/nora-tarek-011048223/")  # Open LinkedIn   
+            elif 'google' in command:
+                speak("Opening google browser.")
+                webbrowser.open("https://www.google.com/")  # Open google        
 
 # Start the assistant
 run()
